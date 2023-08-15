@@ -4,8 +4,8 @@ import { v4 as uuidv4 } from 'uuid';
 
 function App() {
   const [todos, setTodos] = useState([
-    { id: 1, content: '掃除', completed: true },
-    { id: 2, content: '洗濯', completed: true },
+    { id: 1, content: '掃除', completed: false },
+    { id: 2, content: '洗濯', completed: false },
   ]);
 
   const todoContentRef = useRef();
